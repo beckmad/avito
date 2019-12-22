@@ -1,0 +1,52 @@
+body {
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 208px;
+    border: 1px;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #eee;
+
+}
+
+.title {
+    color: rgb(0, 156, 240);
+
+}
+
+.item > img {
+    margin-bottom: 20px;
+}
+
+.id {
+    color: #999;
+    font-weight: normal;
+}
