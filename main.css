@@ -29,7 +29,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 208px;
-    border: 1px;
     margin: 20px;
     font-weight: bold;
     text-align: center;
@@ -39,6 +38,7 @@ body {
 
 .title {
     color: rgb(0, 156, 240);
+    margin: 10px 0;
 
 }
 
@@ -49,4 +49,24 @@ body {
 .id {
     color: #999;
     font-weight: normal;
+}
+
+.box {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box > button {
+    width: 100px;
+    padding: 10px;
+}
+
+.box > img {
+    width: auto;
+    height: 400px;
+}
+
+.desc {
+    padding: 10px 10px 10px 0;
 }
