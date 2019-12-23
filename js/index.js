@@ -86,13 +86,13 @@ ul.addEventListener('click', function (e) {
             '    <meta name="viewport"\n' +
             '          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">\n' +
             '    <meta http-equiv="X-UA-Compatible" content="ie=edge">\n' +
-            '    <link rel="stylesheet" href="normalize.css">\n' +
-            '    <link rel="stylesheet" href="main.css">\n' +
+            '    <link rel="stylesheet" href="css/normalize.css">\n' +
+            '    <link rel="stylesheet" href="css/main.css">\n' +
             '    <title>Document</title>\n' +
             '</head>\n' +
             '<body>\n' +
             '</body>\n' +
-            '<script src="slider.js"></script>' +
+            '<script src="js/slider.js"></script>' +
             '</html>');
         w.document.body.append(box);
         w.document.close();
